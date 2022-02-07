@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
-const axios = require("axios");
-const urlJoin = require("url-join");
-const semver = require("semver");
+const axios = require('axios');
+const urlJoin = require('url-join');
+const semver = require('semver');
 
-const defaultRegistry = "https://registry.npmjs.org";
+const defaultRegistry = 'https://registry.npmjs.org';
 
 async function getNpmInfo(pkgName, registry = defaultRegistry) {
   if (!pkgName) {

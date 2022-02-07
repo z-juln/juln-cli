@@ -1,8 +1,9 @@
 {
   "name": "juln-cli",
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "@juln-cli/core": "0.0.0"
+    "@juln-cli/core": "0.0.0",
+    "@umijs/fabric": "^2.10.1",
+    "lerna": "^4.0.0"
   },
   "publishConfig": {
     "access": "public"

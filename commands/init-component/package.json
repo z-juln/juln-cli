@@ -1,9 +1,9 @@
 {
-  "name": "@juln-cli/log",
+  "name": "@juln-cli/init-component",
   "version": "0.0.0",
   "description": "",
   "author": "juln <1850021148@qq.com>",
-  "homepage": "",
+  "homepage": "https://github.com/z-juln/juln-cli#readme",
   "license": "ISC",
   "main": "index.js",
   "directories": {
@@ -11,16 +11,20 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "index.js"
   ],
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-juln/juln-cli.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "dependencies": {
-    "npmlog": "^6.0.0"
+  "bugs": {
+    "url": "https://github.com/z-juln/juln-cli/issues"
   },
   "devDependencies": {}
 }
