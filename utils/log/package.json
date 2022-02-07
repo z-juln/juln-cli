@@ -1,0 +1,25 @@
+{
+  "name": "@juln-cli/log",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "庄俊霖 <zhuangjunlin@hupu.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "npmlog": "^6.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@juln-cli/get-npm-info",
+  "version": "0.0.0",
+  "description": "",
+  "author": "juln <1850021148@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "semver": "^7.3.5",
+    "url-join": "^4.0.1"
+  }
+}

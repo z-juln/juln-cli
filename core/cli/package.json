@@ -1,0 +1,35 @@
+{
+  "name": "@juln-cli/core",
+  "version": "0.0.0",
+  "description": "",
+  "author": "juln <1850021148@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "bin",
+    "test": "__tests__"
+  },
+  "bin": {
+    "juln": "bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "dependencies": {
+    "@juln-cli/get-npm-info": "0.0.0",
+    "@juln-cli/log": "0.0.0",
+    "check-engines": "^1.5.0",
+    "import-local": "^3.1.0",
+    "minimist": "^1.2.5",
+    "root-check": "1.0.0",
+    "semver": "^7.3.5",
+    "userhome": "^1.0.0"
+  }
+}
